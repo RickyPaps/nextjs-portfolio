@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .circle {
+        @apply w-6 h-6 rounded-[6rem] bg-black top-0 left-0 z-50 pointer-events-none fixed;
+    }
+}
