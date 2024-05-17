@@ -1,0 +1,198 @@
+[33mcommit aff0369a5a26f86863314f1f8b929a42575426b7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Merge: ad09b47 4fafc34
+Author: RickyPaps <rickypapini@gmail.com>
+Date:   Wed May 15 14:03:44 2024 +0100
+
+    Merge pull request #5 from RickyPaps/about-page
+    
+    About page
+
+[33mcommit 4fafc34a08c03d4d1413053b4c77829dc06e3851[m[33m ([m[1;31morigin/about-page[m[33m, [m[1;32mabout-page[m[33m)[m
+Author: Riccardo Papini <rickypapini@gmail.com>
+Date:   Wed May 15 14:02:53 2024 +0100
+
+    Added Experince component and Education Component.
+
+[33mcommit 5e0dc8658d09a63875afb00024c0eb887a5efe89[m
+Author: Riccardo Papini <rickypapini@gmail.com>
+Date:   Mon May 13 14:51:46 2024 +0100
+
+    Started About page. \Added Skills component for about page.
+
+[33mcommit ad09b47fd57c642a32aea18e94eee60d2895d559[m
+Merge: a5d2991 96b884a
+Author: RickyPaps <rickypapini@gmail.com>
+Date:   Wed May 8 16:29:27 2024 +0100
+
+    Merge pull request #4 from RickyPaps/hire-me
+    
+    Added hire me button and lightbulb svg image
+
+[33mcommit 96b884ae21aac66af14f5983e4847385c3ad5d55[m[33m ([m[1;31morigin/hire-me[m[33m, [m[1;32mhire-me[m[33m)[m
+Author: Riccardo Papini <rickypapini@gmail.com>
+Date:   Wed May 8 16:28:51 2024 +0100
+
+    Added hire me button and lightbulb svg image
+
+[33mcommit a5d29917c97a917c13a157a9ad523e624de22b79[m
+Merge: c8eebe4 2f7e1c2
+Author: RickyPaps <rickypapini@gmail.com>
+Date:   Wed May 8 14:44:28 2024 +0100
+
+    Merge pull request #3 from RickyPaps/Footer
+    
+    Added initial footer draft to site. Responsiveness to be added.
+
+[33mcommit 2f7e1c2a3efc700621acbc4f6483e082f8ce2f62[m[33m ([m[1;31morigin/Footer[m[33m, [m[1;32mFooter[m[33m)[m
+Author: Riccardo Papini <rickypapini@gmail.com>
+Date:   Wed May 8 14:43:39 2024 +0100
+
+    Added inital footer draft to site. Responsiveness to be added.
+
+[33mcommit c8eebe449a981286109ac982cbdf839bd67f3419[m
+Merge: 87226e0 2800878
+Author: RickyPaps <rickypapini@gmail.com>
+Date:   Mon Apr 29 23:02:56 2024 +0300
+
+    Merge pull request #2 from RickyPaps/Home-Page
+    
+    Added home page components and info.
+
+[33mcommit 2800878e6881bed7add3c16bd0d6ee75d99d0808[m[33m ([m[1;31morigin/Home-Page[m[33m, [m[1;32mHome-Page[m[33m)[m
+Author: Riccardo Papini <rickypapini@gmail.com>
+Date:   Mon Apr 29 22:57:43 2024 +0300
+
+    Added home page components and info.
+
+[33mcommit 87226e0d21f3a38b1476c556ea2daca2b95c969e[m
+Merge: 532d25d 5575ffc
+Author: RickyPaps <rickypapini@gmail.com>
+Date:   Mon Apr 29 14:10:21 2024 +0300
+
+    Merge pull request #1 from RickyPaps/Logo-component
+    
+    Logo component
+
+[33mcommit 5575ffcf0125d9c79b5d5a43b22a1f53194f49b5[m[33m ([m[1;31morigin/Logo-component[m[33m, [m[1;32mLogo-component[m[33m)[m
+Author: Riccardo Papini <rickypapini@gmail.com>
+Date:   Mon Apr 29 14:06:54 2024 +0300
+
+    Added some hover effect with Framer.
+
+[33mcommit 54ea1b1f8f18c80efc9ced29092d7b156b66349c[m
+Author: Riccardo Papini <rickypapini@gmail.com>
+Date:   Fri Apr 26 18:57:35 2024 +0300
+
+    Cleaned up Social icons and Navbar.
+
+[33mcommit 1427e7604e726e16196b55e5bc4545f2b12d8c1e[m
+Author: Riccardo Papini <rickypapini@gmail.com>
+Date:   Fri Apr 26 18:53:26 2024 +0300
+
+    Added social icons. Created hover effect for NavBar component. Added Icons component.
+
+[33mcommit b19f9c203c6f8c94a17fd7b16508f1d4207ff567[m
+Author: Riccardo Papini <rickypapini@gmail.com>
+Date:   Fri Apr 26 16:43:46 2024 +0300
+
+    Added starting work to Nav bar and Logo component
+
+[33mcommit 532d25d9c29734c3a3d53739465c91370a93804d[m
+Author: Riccardo Papini <rickypapini@gmail.com>
+Date:   Fri Apr 26 15:42:28 2024 +0300
+
+    first commit
+
+[33mcommit 9e510d06fe4c20f7034506e9f2c55bb43f71401d[m
+Merge: 030ce6e 30f9e09
+Author: CodeBucks <codebucks27@gmail.com>
+Date:   Fri Dec 8 16:56:02 2023 +0530
+
+    Merge pull request #14 from codebucks27/dependabot/npm_and_yarn/next-13.5.1
+    
+    Bump next from 13.2.4 to 13.5.1
+
+[33mcommit 30f9e09c3819d0b045eae25bdc723563cdf15e36[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Fri Dec 8 11:14:45 2023 +0000
+
+    Bump next from 13.2.4 to 13.5.1
+    
+    Bumps [next](https://github.com/vercel/next.js) from 13.2.4 to 13.5.1.
+    - [Release notes](https://github.com/vercel/next.js/releases)
+    - [Changelog](https://github.com/vercel/next.js/blob/canary/release.js)
+    - [Commits](https://github.com/vercel/next.js/compare/v13.2.4...v13.5.1)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: next
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 030ce6e5ec2e8ebe912f1fa0f6193516f7b952fd[m
+Author: CodeBucks <codebucks27@gmail.com>
+Date:   Thu Sep 7 18:02:23 2023 +0530
+
+    Update README.md
+
+[33mcommit 2583f6db4631c8e493099a5ec211452298f11e8e[m
+Author: CodeBucks <codebucks27@gmail.com>
+Date:   Mon Jul 10 22:04:16 2023 +0530
+
+    Update README.md
+
+[33mcommit ecae63f4b605802609416da251944e86407a9e88[m
+Author: CodeBucks <codebucks27@gmail.com>
+Date:   Mon May 1 23:43:17 2023 +0530
+
+    Delete package-lock.json
+
+[33mcommit cd8341f773807b0b2fe8d18886c07bfa39a63de5[m
+Author: CodeBucks <codebucks27@gmail.com>
+Date:   Mon Apr 3 12:06:45 2023 +0530
+
+    Update README.md
+
+[33mcommit 22128a82b13d1866177cddd47c309ea91c3f2de9[m
+Author: CodeBucks <codebucks27@gmail.com>
+Date:   Mon Mar 27 16:15:15 2023 +0530
+
+    Update README.md
+
+[33mcommit 6407e1071a0635b0f559786b4a35c21a0ce75e6b[m
+Author: CodeBucks <codebucks27@gmail.com>
+Date:   Mon Mar 27 13:56:50 2023 +0530
+
+    Update README.md
+
+[33mcommit b885f8b1d556cd53ebefea83a1f3a4d4f58c1777[m
+Author: CodeBucks <codebucks27@gmail.com>
+Date:   Mon Mar 27 13:47:06 2023 +0530
+
+    website images added
+
+[33mcommit 6b7b9ddf0eee528907c90ea5594c42a8c70fd8d6[m
+Author: CodeBucks <codebucks27@gmail.com>
+Date:   Thu Mar 23 13:51:25 2023 +0530
+
+    updates
+
+[33mcommit 249415cee06f6affb3ba220d8c6a8563767f9f04[m
+Author: CodeBucks <codebucks27@gmail.com>
+Date:   Mon Mar 20 17:24:53 2023 +0530
+
+    Update styles.txt
+
+[33mcommit bf8017d8989f32db76d0fa45b2d1968b7febba07[m
+Author: CodeBucks <codebucks27@gmail.com>
+Date:   Mon Mar 20 13:41:42 2023 +0530
+
+    adding assets
+
+[33mcommit da4aa790b6afbfb4db9f84e54ebc7910b76cc96a[m
+Author: CodeBucks <codebucks27@gmail.com>
+Date:   Mon Mar 20 12:54:59 2023 +0530
+
+    Initial commit from Create Next App
