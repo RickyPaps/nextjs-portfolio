@@ -23,6 +23,8 @@ export default function Home() {
                 src={profilePicture}
                 alt="Ricky"
                 className="w-full h-auto"
+                priority
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
               />
             </div>
             <div className="w-1/2 flex flex-col items-center self-center">
@@ -61,11 +63,7 @@ export default function Home() {
         </Layout>
         <HireMe />
         <div className="absolute right-8 bottom-8 w-24 inline-block">
-          <Image
-            src={lightBulb}
-            alt="light-bulb"
-            className="w-full h-auto"
-          />
+          <Image src={lightBulb} alt="light-bulb" className="w-full h-auto" />
         </div>
       </main>
     </>
