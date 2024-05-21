@@ -1,5 +1,4 @@
 import Footer from "@/components/Footer";
-import MouseCircle from "@/components/MouseCircle";
 import { CustomMouse } from "@/components/CustomMouse";
 import NavBar from "@/components/NavBar";
 import "@/styles/globals.css";
