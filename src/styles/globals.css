@@ -6,4 +6,38 @@
     .circle {
         @apply w-6 h-6 rounded-[6rem] bg-black top-0 left-0 z-50 pointer-events-none fixed;
     }
+
+    .spin-div {
+        @apply absolute w-[200px] h-[200px] border-4 border-solid border-cubeBorder bg-cubeBackground text-center text-5xl flex justify-center items-center shadow-[0px_0px_20px_0px_#8787873d];
+    }
+
+    .face1 {
+        transform: translateZ(100px);
+
+    }
+
+    .face2 {
+        transform: rotateY(90deg) translateZ(100px);
+    }
+
+    .face3 {
+        transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+    }
+
+    .face4 {
+        transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+    }
+
+    .face5 {
+        transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+    }
+
+    .face6 {
+        transform: rotateX(-90deg) translateZ(100px);
+    }
+
+    .animate-spinCube {
+        transform-style: preserve-3d;
+        transform-origin: 100px 100px 0;
+    }
 }

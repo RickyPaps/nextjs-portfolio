@@ -1,54 +1,9 @@
 import React, { useState } from "react";
-import Link from "next/link";
-import Logo from "./Logo";
-import { useRouter } from "next/router";
-import { GithubIcon, LinkedInIcon } from "./Icons";
+import Logo from "../Logo";
+import { GithubIcon, LinkedInIcon } from "../util/Icons";
+import CustomLink from "./CustomLink";
+import CustomMobileLink from "./CustomMobileLink";
 import { motion } from "framer-motion";
-
-const CustomLink = ({ href, title, className = "" }) => {
-  const router = useRouter();
-
-  return (
-    <Link href={href} className={`${className} relative group`}>
-      {title}
-
-      <span
-        className={`h-[1px] inline-block bg-dark absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 ${
-          router.asPath === href ? "w-full" : "w-0"
-        }`}
-      >
-        &nbsp;
-      </span>
-    </Link>
-  );
-};
-
-const CustomMobileLink = ({ href, title, className = "", toggle }) => {
-  const router = useRouter();
-
-  const handleClick = () => {
-    toggle();
-    router.push(href);
-  };
-
-  return (
-    <button
-      href={href}
-      className={`${className} relative group text-light dark:text-dark my-2`}
-      onClick={handleClick}
-    >
-      {title}
-
-      <span
-        className={`h-[1px] inline-block bg-light absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 ${
-          router.asPath === href ? "w-full" : "w-0"
-        } dark:bg-dark`}
-      >
-        &nbsp;
-      </span>
-    </button>
-  );
-};
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -85,7 +40,6 @@ const NavBar = () => {
           <CustomLink href="/" title={"Home"} className="mr-4" />
           <CustomLink href="/about" title={"About"} className="mx-4" />
           <CustomLink href="/projects" title={"Projects"} className="mx-4" />
-          <CustomLink href="/articles" title={"Articles"} className="ml-4" />
         </nav>
 
         <nav className="flex justify-center items-center">
@@ -139,11 +93,6 @@ const NavBar = () => {
               title={"Projects"}
               toggle={handleMenuToggle}
             />
-            <CustomMobileLink
-              href="/articles"
-              title={"Articles"}
-              toggle={handleMenuToggle}
-            />
           </nav>
 
           <nav className="flex justify-center items-center flex-wrap mt-2">
@@ -168,7 +117,6 @@ const NavBar = () => {
           </nav>
         </motion.div>
       ) : null}
-
       <div className="absolute left-[50%] top-2 translate-x-[-50%]">
         <Logo />
       </div>

@@ -1,12 +1,12 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
-import profilePicture from "../../public/images/profile/developer-pic-1.png";
-import AnimatedText from "@/components/AnimatedText";
+import AnimatedText from "@/components/util/AnimatedText";
 import Link from "next/link";
-import { LinkArrow } from "@/components/Icons";
-import HireMe from "@/components/HireMe";
+import { LinkArrow } from "@/components/util/Icons";
+import HireMe from "@/components/util/HireMe";
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
+import Cube from "@/components/util/Cube";
 
 export default function Home() {
   return (
@@ -18,14 +18,8 @@ export default function Home() {
       <div className="flex items-center text-dark w-full min-h-screen">
         <Layout className="pt-0 md:pt-16 sm:pt-8">
           <div className="flex items-center justify-between w-full lg:flex-col">
-            <div className="w-1/2 md:w-full">
-              <Image
-                src={profilePicture}
-                alt="Ricky"
-                className="w-full h-auto lg:hidden md:inline-block md:w-full"
-                priority
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
-              />
+            <div className="w-1/2 lg:w-full flex flex-col items-center self-baseline my-16 sm:mt-12">
+              <Cube />
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
@@ -35,8 +29,8 @@ export default function Home() {
               <p className="my-4 text-base font-medium md:text-sm">
                 I strive to craft innovative web applications, transforming
                 ideas into reality as a dedicated Front-End developer. Feel free
-                to explore my recent projects and articles, where I share my
-                journey and expertise in React.js and web development
+                to explore my recent projects, where I share my journey and
+                expertise in React.js and web development
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 {/* PUT CV IN PUBLIC FOLDER */}

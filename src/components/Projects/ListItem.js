@@ -1,5 +1,5 @@
 import React from "react";
-import { motion, useScroll } from "framer-motion";
+import { m, useScroll } from "framer-motion";
 
 const ListItem = ({ reference }) => {
   const { scrollYProgress } = useScroll({
@@ -21,7 +21,7 @@ const ListItem = ({ reference }) => {
           r={"20"}
           className="stroke-primary stroke-1 fill-none"
         />
-        <motion.circle
+        <m.circle
           cx={"75"}
           cy={"50"}
           r={"20"}

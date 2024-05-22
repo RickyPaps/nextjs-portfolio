@@ -1,37 +1,13 @@
-import AnimatedText from "@/components/AnimatedText";
+import AnimatedText from "@/components/util/AnimatedText";
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
-import React, { useRef, useEffect } from "react";
-import profilePic from "../../public/images/profile/developer-pic-1.png";
-import { useInView, useMotionValue, useSpring } from "framer-motion";
-import Skills from "@/components/Skills";
-import Experience from "@/components/Experience";
-import Education from "@/components/Education";
-
-const AnimatedNumbers = ({ value }) => {
-  const ref = useRef(null);
-
-  const motionValue = useMotionValue(0);
-  const springValue = useSpring(motionValue, { duration: 3000 });
-  const isInView = useInView(ref, { once: true });
-
-  useEffect(() => {
-    if (isInView) {
-      motionValue.set(value);
-    }
-  }, [isInView, value, motionValue]);
-
-  useEffect(() => {
-    springValue.on("change", (latest) => {
-      if (ref.current && latest.toFixed(0) <= value) {
-        ref.current.textContent = latest.toFixed(0);
-      }
-    });
-  }, [springValue, value]);
-
-  return <span ref={ref}></span>;
-};
+import React from "react";
+import profilePic from "../../public/images/profile/DALL_E_2024-05-22_14.59.53_-_A_realistic_cartoon_image_of_a_young_man_with_short_dark_hair_styled_to_the_side__smiling_with_his_teeth_showing__wearing_a_white_polo_shirt._The_back-removebg-preview.webp";
+import Skills from "@/components/About/Skills";
+import Experience from "@/components/About/Experience";
+import Education from "@/components/About/Education";
+import AnimatedNumbers from "@/components/About/Helpers/AnimatedNumbers";
 
 const about = () => {
   return (
