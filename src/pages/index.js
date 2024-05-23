@@ -7,6 +7,7 @@ import { LinkArrow } from "@/components/util/Icons";
 import HireMe from "@/components/util/HireMe";
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
 import Cube from "@/components/util/Cube";
+import TransitionEffect from "@/components/util/TransitionEffect";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <title>Riccardo Papini Portfolio</title>
         <meta name="description" content="Home Page for Next Portfolio" />
       </Head>
+      <TransitionEffect />
       <div className="flex items-center text-dark w-full min-h-screen">
         <Layout className="pt-0 md:pt-16 sm:pt-8">
           <div className="flex items-center justify-between w-full lg:flex-col">
