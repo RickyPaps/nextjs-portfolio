@@ -46,9 +46,11 @@ const Project = ({ title, type, image, link, githubLink }) => {
           >
             Visit
           </Link>
-          <Link href={githubLink} target="_blank" className="w-8 md:w-6">
-            <GithubIcon />
-          </Link>
+          {String(githubLink).length > 0 && (
+            <Link href={githubLink} target="_blank" className="w-10">
+              <GithubIcon />
+            </Link>
+          )}
         </div>
       </div>
     </article>

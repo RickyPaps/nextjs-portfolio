@@ -57,9 +57,11 @@ const FeaturedProjects = ({
           {summary}
         </p>
         <div className="mt-2 flex items-center">
-          <Link href={githubLink} target="_blank" className="w-10">
-            <GithubIcon />
-          </Link>
+          {String(githubLink).length > 0 && (
+            <Link href={githubLink} target="_blank" className="w-10">
+              <GithubIcon />
+            </Link>
+          )}
           <Link
             href={link}
             target="_blank"

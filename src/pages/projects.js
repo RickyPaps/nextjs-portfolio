@@ -24,13 +24,13 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProjects
-                title={"Fron-End Developer"}
+                title={"Front-End Developer"}
                 summary={`Contributed to the development of a new E-commerce Progressive Web Application (PWA), now live. 
                 Utilized Ionic React for the front-end framework, integrated with a back-end powered by GraphQL and Magento 2.
                 Employed Bitbucket for version control, with design assets created using Figma.`}
                 link={"https://www.mrp.com/home"}
                 image={"https://i.ibb.co/8Yzy3JQ/Mr-Price-x-North-Star-feat.jpg"}
-                githubLink={"#"}
+                githubLink={""}
                 type={"Featured Project"}
               />
             </div>
@@ -39,7 +39,7 @@ const projects = () => {
                 title={"Ski Chalet Project"}
                 link={"https://alpichalets.com/"}
                 image={"https://i.ibb.co/88fNV91/Alpi-Chalets.png"}
-                githubLink={"#"}
+                githubLink={""}
                 type={"Wordpress Project"}
               />
             </div>
@@ -58,7 +58,7 @@ const projects = () => {
                 summary={`Stay Tuned`}
                 link={"#"}
                 image={"https://i.ibb.co/KVqDp3f/Coming-Soon.png"}
-                githubLink={"#"}
+                githubLink={""}
                 type={"Featured Project"}
               />
             </div>
