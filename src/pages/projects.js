@@ -2,7 +2,9 @@ import Head from "next/head";
 import React from "react";
 import Layout from "../components/Layout";
 import AnimatedText from "../components/util/AnimatedText";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import project1 from "../../public/images/projects/Mr-Price-x-North-Star-feat.jpg";
+import project2 from "../../public/images/projects/Alpi-Chalets.png";
+import project3 from "../../public/images/projects/ai-summarize.png";
 import FeaturedProjects from "@/components/Projects/FeaturedProjects";
 import Project from "@/components/Projects/Project";
 import TransitionEffect from "@/components/util/TransitionEffect";
@@ -37,20 +39,20 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title={"Fron-End Developer"}
-                link={"https://www.mrp.com/home"}
-                image={project1}
+                title={"Ski Chalet Project"}
+                link={"https://alpichalets.com/"}
+                image={project2}
                 githubLink={"#"}
-                type={"Featured Project"}
+                type={"Wordpress Project"}
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title={"Fron-End Developer"}
-                link={"https://www.mrp.com/home"}
-                image={project1}
-                githubLink={"#"}
-                type={"Featured Project"}
+                title={"AI Summarizer"}
+                link={"https://ai-simplify.netlify.app/"}
+                image={project3}
+                githubLink={"https://github.com/RickyPaps/ai-summarize"}
+                type={"Side Project"}
               />
             </div>
           </div>

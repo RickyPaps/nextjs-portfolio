@@ -35,9 +35,8 @@ export default function Home() {
                 expertise in React.js and web development
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
-                {/* PUT CV IN PUBLIC FOLDER */}
                 <Link
-                  href={"/.pdf"}
+                  href={"/.RESUME-RICCARDO_PAPINI.pdf"}
                   target={"_blank"}
                   className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg 
                   font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent 
