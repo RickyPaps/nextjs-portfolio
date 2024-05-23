@@ -1,4 +1,4 @@
-import {  useEffect } from "react";
+import { useEffect } from "react";
 
 export const CustomMouse = () => {
   const mouse = {
@@ -15,7 +15,7 @@ export const CustomMouse = () => {
       this.node = (function () {
         var n = document.createElement("div");
         n.className = "circle";
-        document.querySelector('.circle-wrapper').appendChild(n);
+        document.querySelector(".circle-wrapper").appendChild(n);
         return n;
       })();
     };
@@ -68,7 +68,5 @@ export const CustomMouse = () => {
     };
   }, []);
 
-  return (
-    <div className="circle-wrapper"></div>
-  )
+  return <div className="circle-wrapper sm:hidden"></div>;
 };

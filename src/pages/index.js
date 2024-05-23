@@ -20,7 +20,7 @@ export default function Home() {
         <Layout className="pt-0 md:pt-16 sm:pt-8">
           <div className="flex items-center justify-between w-full lg:flex-col">
             <div className="w-1/2 lg:w-full flex flex-col items-center self-baseline my-16 sm:mt-12">
-              {/* <Cube /> */}
+              <Cube />
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText

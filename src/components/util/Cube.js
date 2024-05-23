@@ -10,7 +10,7 @@ import {
 
 const Cube = () => {
   return (
-    <div className="w-1/2 h-[200px] lg:w-1/4 sm:w-[85%] z-0">
+    <div className="w-1/2 h-[200px] lg:w-1/4 sm:w-[75%] z-0">
       <div className="animate-spinCube">
         <div className="face1 spin-div">
           <HtmlIcon />
