@@ -40,7 +40,7 @@ const FeaturedProjects = ({
         />
       </Link>
 
-      <div className="w-1/2 flex flex-col items-start justify-between p-4 lg:w-full lg:pl-0 lg:pt-6 last:justify-center">
+      <div className="w-1/2 flex flex-col items-start justify-between p-4 lg:w-full lg:pl-0 lg:pt-6">
         <span className="text-primary font-medium text-xl xs:text-base">
           {type}
         </span>
@@ -56,7 +56,7 @@ const FeaturedProjects = ({
         <p className="my-2 font-medium text-dark sm:text-sm">
           {summary}
         </p>
-        <div className="mt-2 flex items-center">
+        <div className="mt-2 flex items-center sm:w-full xs:justify-center">
           {String(githubLink).length > 0 && (
             <Link href={githubLink} target="_blank" className="w-10">
               <GithubIcon />
