@@ -47,7 +47,7 @@ const about = () => {
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark" />
               <Image
                 src={
-                  "/images/profile/DALL_E_2024-05-22_14.59.53_-_A_realistic_cartoon_image_of_a_young_man_with_short_dark_hair_styled_to_the_side__smiling_with_his_teeth_showing__wearing_a_white_polo_shirt._The_back-removebg-preview.webp"
+                  "/static/images/profile/DALL_E_2024-05-22_14.59.53_-_A_realistic_cartoon_image_of_a_young_man_with_short_dark_hair_styled_to_the_side__smiling_with_his_teeth_showing__wearing_a_white_polo_shirt._The_back-removebg-preview.webp"
                 }
                 width={500}
                 height={500}

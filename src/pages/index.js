@@ -5,7 +5,7 @@ import AnimatedText from "@/components/util/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/util/Icons";
 import HireMe from "@/components/util/HireMe";
-import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
+import lightBulb from "../../public/static/images/svgs/miscellaneous_icons_1.svg";
 import Cube from "@/components/util/Cube";
 import TransitionEffect from "@/components/util/TransitionEffect";
 
