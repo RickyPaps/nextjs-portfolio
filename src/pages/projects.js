@@ -5,6 +5,7 @@ import AnimatedText from "../components/util/AnimatedText";
 import project1 from "../../public/images/projects/Mr-Price-x-North-Star-feat.jpg";
 import project2 from "../../public/images/projects/Alpi-Chalets.png";
 import project3 from "../../public/images/projects/ai-summarize.png";
+import project4 from "../../public/images/projects/coming-soon.png";
 import FeaturedProjects from "@/components/Projects/FeaturedProjects";
 import Project from "@/components/Projects/Project";
 import TransitionEffect from "@/components/util/TransitionEffect";
@@ -53,6 +54,16 @@ const projects = () => {
                 image={project3}
                 githubLink={"https://github.com/RickyPaps/ai-summarize"}
                 type={"Side Project"}
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProjects
+                title={"CareerHive"}
+                summary={`Stay Tuned`}
+                link={"#"}
+                image={project4}
+                githubLink={"#"}
+                type={"Featured Project"}
               />
             </div>
           </div>
