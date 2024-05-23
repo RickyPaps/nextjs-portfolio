@@ -5,8 +5,8 @@ const Skill = ({ name, x, y }) => {
   return (
     <m.div
       className="flex items-center justify-center rounded-full font-semibold bg-dark text-light py-3 px-6 shadow-dark cursor-pointer absolute
-      dark:bg-light dark:text-dark lg:py-2 lg:px-4 md:text-sm md:py-1.5 md:px-3 xs:bg-transparent xs:dark:bg-transparent
-      xs:text-dark xs:dark:text-light xs:font-bold
+       lg:py-2 lg:px-4 md:text-sm md:py-1.5 md:px-3 xs:bg-transparent 
+      xs:text-dark xs:font-bold
       "
       whileHover={{ scale: 1.2 }}
       initial={{ x: 0, y: 0 }}
@@ -27,14 +27,14 @@ const Skills = () => {
       </h2>
       <div
         className="w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight lg:h-[80vh] sm:h-[60vh] xs:h-[50vh]
-        lg:bg-circularLightLg lg:dark:bg-circularDarkLg
-        md:bg-circularLightMd md:dark:bg-circularDarkMd
-        sm:bg-circularLightSm sm:dark:bg-circularDarkSm
+        lg:bg-circularLightLg
+        md:bg-circularLightMd
+        sm:bg-circularLightSm
       "
       >
         <m.div
           className="flex items-center justify-center rounded-full font-semibold bg-dark text-light p-8 shadow-dark cursor-pointer 
-          dark:bg-light dark:text-dark lg:p-6 md:p-4 xs:text-xs xs:p-2"
+           lg:p-6 md:p-4 xs:text-xs xs:p-2"
           whileHover={{ scale: 1.05 }}
         >
           Web

@@ -9,7 +9,7 @@ const Project = ({ title, type, image, link, githubLink }) => {
       xs:p-4"
     >
       <div
-        className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl dark:bg-light
+        className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl
         md:-right-2 md:w-[101%] xs:h-[102%] xs:rounded-[1.5rem]"
       />
       <Link
@@ -26,7 +26,7 @@ const Project = ({ title, type, image, link, githubLink }) => {
         />
       </Link>
       <div className="w-full flex flex-col items-start justify-between mt-4">
-        <span className="text-primary font-medium text-xl dark:text-primaryDark lg:text-lg md:text-base">
+        <span className="text-primary font-medium text-xl lg:text-lg md:text-base">
           {type}
         </span>
         <Link

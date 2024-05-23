@@ -16,10 +16,10 @@ const FeaturedProjects = ({
   return (
     <article
       className="w-full flex items-center justify-between rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 relative rounded-br-2xl
-        dark:bg-dark dark:border-light lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4"
+         lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4"
     >
       <div
-        className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark rounded-br-3xl dark:bg-light 
+        className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark rounded-br-3xl 
           xs:-right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]"
       />
       <Link
@@ -53,7 +53,7 @@ const FeaturedProjects = ({
             {title}
           </h2>
         </Link>
-        <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">
+        <p className="my-2 font-medium text-dark sm:text-sm">
           {summary}
         </p>
         <div className="mt-2 flex items-center">
