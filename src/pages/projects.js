@@ -29,7 +29,7 @@ const projects = () => {
                 Utilized Ionic React for the front-end framework, integrated with a back-end powered by GraphQL and Magento 2.
                 Employed Bitbucket for version control, with design assets created using Figma.`}
                 link={"https://www.mrp.com/home"}
-                image={"/images/projects/Mr-Price-x-North-Star-feat.jpg"}
+                image={"https://imgur.com/vcf4Pbn"}
                 githubLink={"#"}
                 type={"Featured Project"}
               />
@@ -38,7 +38,7 @@ const projects = () => {
               <Project
                 title={"Ski Chalet Project"}
                 link={"https://alpichalets.com/"}
-                image={"/images/projects/Alpi-Chalets.png"}
+                image={"https://imgur.com/IOcjjuT"}
                 githubLink={"#"}
                 type={"Wordpress Project"}
               />
@@ -47,7 +47,7 @@ const projects = () => {
               <Project
                 title={"AI Summarizer"}
                 link={"https://ai-simplify.netlify.app/"}
-                image={"/images/projects/ai-summarize.png"}
+                image={"https://imgur.com/MeNjy7i"}
                 githubLink={"https://github.com/RickyPaps/ai-summarize"}
                 type={"Side Project"}
               />
@@ -57,7 +57,7 @@ const projects = () => {
                 title={"CareerHive"}
                 summary={`Stay Tuned`}
                 link={"#"}
-                image={"/images/projects/coming-soon.png"}
+                image={"https://imgur.com/qAYYZNp"}
                 githubLink={"#"}
                 type={"Featured Project"}
               />
