@@ -35,7 +35,7 @@ export default function Home() {
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
-                  href={"/.RESUME-RICCARDO_PAPINI.pdf"}
+                  href={"https://i.ibb.co/25F5ZKt/RESUME-RICCARDO-PAPINI.jpg"}
                   target={"_blank"}
                   className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg 
                   font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent 
