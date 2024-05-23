@@ -62,7 +62,7 @@ export default function Home() {
         <HireMe />
         <div className="absolute right-8 bottom-8 w-24 inline-block md:hidden">
           <Image
-            src={"/images/svgs/miscellaneous_icons_1.svg"}
+            src={"https://i.ibb.co/1fDVcbS/miscellaneous-icons-1.png"}
             width={25}
             height={25}
             alt="light-bulb"
