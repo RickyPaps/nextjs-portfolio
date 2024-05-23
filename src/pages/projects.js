@@ -2,10 +2,6 @@ import Head from "next/head";
 import React from "react";
 import Layout from "../components/Layout";
 import AnimatedText from "../components/util/AnimatedText";
-import project1 from "../../public/images/projects/Mr-Price-x-North-Star-feat.jpg";
-import project2 from "../../public/images/projects/Alpi-Chalets.png";
-import project3 from "../../public/images/projects/ai-summarize.png";
-import project4 from "../../public/images/projects/coming-soon.png";
 import FeaturedProjects from "@/components/Projects/FeaturedProjects";
 import Project from "@/components/Projects/Project";
 import TransitionEffect from "@/components/util/TransitionEffect";
@@ -33,7 +29,7 @@ const projects = () => {
                 Utilized Ionic React for the front-end framework, integrated with a back-end powered by GraphQL and Magento 2.
                 Employed Bitbucket for version control, with design assets created using Figma.`}
                 link={"https://www.mrp.com/home"}
-                image={project1}
+                image={"/images/projects/Mr-Price-x-North-Star-feat.jpg"}
                 githubLink={"#"}
                 type={"Featured Project"}
               />
@@ -42,7 +38,7 @@ const projects = () => {
               <Project
                 title={"Ski Chalet Project"}
                 link={"https://alpichalets.com/"}
-                image={project2}
+                image={"/images/projects/Alpi-Chalets.png"}
                 githubLink={"#"}
                 type={"Wordpress Project"}
               />
@@ -51,7 +47,7 @@ const projects = () => {
               <Project
                 title={"AI Summarizer"}
                 link={"https://ai-simplify.netlify.app/"}
-                image={project3}
+                image={"/images/projects/ai-summarize.png"}
                 githubLink={"https://github.com/RickyPaps/ai-summarize"}
                 type={"Side Project"}
               />
@@ -61,7 +57,7 @@ const projects = () => {
                 title={"CareerHive"}
                 summary={`Stay Tuned`}
                 link={"#"}
-                image={project4}
+                image={"/images/projects/coming-soon.png"}
                 githubLink={"#"}
                 type={"Featured Project"}
               />

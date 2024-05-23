@@ -3,7 +3,6 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
-import profilePic from "../../public/images/profile/DALL_E_2024-05-22_14.59.53_-_A_realistic_cartoon_image_of_a_young_man_with_short_dark_hair_styled_to_the_side__smiling_with_his_teeth_showing__wearing_a_white_polo_shirt._The_back-removebg-preview.webp";
 import Skills from "@/components/About/Skills";
 import Experience from "@/components/About/Experience";
 import Education from "@/components/About/Education";
@@ -47,7 +46,11 @@ const about = () => {
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:col-span-8 md:order-1">
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark" />
               <Image
-                src={profilePic}
+                src={
+                  "/images/profile/DALL_E_2024-05-22_14.59.53_-_A_realistic_cartoon_image_of_a_young_man_with_short_dark_hair_styled_to_the_side__smiling_with_his_teeth_showing__wearing_a_white_polo_shirt._The_back-removebg-preview.webp"
+                }
+                width={500}
+                height={500}
                 alt="Ricky-about-image"
                 className="w-full h-auto rounded-2xl"
                 priority

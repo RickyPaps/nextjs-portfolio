@@ -17,7 +17,13 @@ const Project = ({ title, type, image, link, githubLink }) => {
         target="_blank"
         className="w-full cursor-pointer overflow-hidden rounded-lg"
       >
-        <Image src={image} alt={title} className="w-full h-auto" />
+        <Image
+          src={image}
+          alt={title}
+          className="w-full h-auto"
+          width={500}
+          height={500}
+        />
       </Link>
       <div className="w-full flex flex-col items-start justify-between mt-4">
         <span className="text-primary font-medium text-xl dark:text-primaryDark lg:text-lg md:text-base">
