@@ -6,8 +6,6 @@ import FeaturedProjects from "@/components/Projects/FeaturedProjects";
 import Project from "@/components/Projects/Project";
 import TransitionEffect from "@/components/util/TransitionEffect";
 
-import profile from "/images/projects/Mr-Price-x-North-Star-feat.jpg";
-
 const projects = () => {
   return (
     <>
@@ -31,7 +29,7 @@ const projects = () => {
                 Utilized Ionic React for the front-end framework, integrated with a back-end powered by GraphQL and Magento 2.
                 Employed Bitbucket for version control, with design assets created using Figma.`}
                 link={"https://www.mrp.com/home"}
-                image={profile}
+                image={'/images/projects/Mr-Price-x-North-Star-feat.jpg'}
                 githubLink={"#"}
                 type={"Featured Project"}
               />
