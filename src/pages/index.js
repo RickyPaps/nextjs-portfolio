@@ -5,7 +5,6 @@ import AnimatedText from "@/components/util/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/util/Icons";
 import HireMe from "@/components/util/HireMe";
-import lightBulb from "/images/svgs/miscellaneous_icons_1.svg";
 import Cube from "@/components/util/Cube";
 import TransitionEffect from "@/components/util/TransitionEffect";
 
@@ -62,7 +61,11 @@ export default function Home() {
         </Layout>
         <HireMe />
         <div className="absolute right-8 bottom-8 w-24 inline-block md:hidden">
-          <Image src={lightBulb} alt="light-bulb" className="w-full h-auto" />
+          <Image
+            src={"/images/svgs/miscellaneous_icons_1.svg"}
+            alt="light-bulb"
+            className="w-full h-auto"
+          />
         </div>
       </div>
     </>
