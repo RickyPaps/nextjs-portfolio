@@ -63,6 +63,8 @@ export default function Home() {
         <div className="absolute right-8 bottom-8 w-24 inline-block md:hidden">
           <Image
             src={"/images/svgs/miscellaneous_icons_1.svg"}
+            width={25}
+            height={25}
             alt="light-bulb"
             className="w-full h-auto"
           />
