@@ -5,6 +5,7 @@ import AnimatedText from "../components/util/AnimatedText";
 import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
 import FeaturedProjects from "@/components/Projects/FeaturedProjects";
 import Project from "@/components/Projects/Project";
+import TransitionEffect from "@/components/util/TransitionEffect";
 
 const projects = () => {
   return (
@@ -13,7 +14,7 @@ const projects = () => {
         <title>Ricky Portfolio | Projects Page</title>
         <meta name="description" content="Projects page description" />
       </Head>
-
+      <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center">
         <Layout className="pt-16">
           <AnimatedText

@@ -4,7 +4,8 @@ import NavBar from "@/components/Header/NavBar";
 import "@/styles/globals.css";
 import { Montserrat } from "next/font/google";
 import Head from "next/head";
-import { LazyMotion, domAnimation } from "framer-motion";
+import { AnimatePresence, LazyMotion, domAnimation } from "framer-motion";
+import { useRouter } from "next/router";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -12,6 +13,8 @@ const montserrat = Montserrat({
 });
 
 export default function App({ Component, pageProps }) {
+  const router = useRouter();
+
   return (
     <>
       <Head>
@@ -24,7 +27,9 @@ export default function App({ Component, pageProps }) {
         <NavBar />
         <CustomMouse />
         <LazyMotion features={domAnimation}>
-          <Component {...pageProps} />
+          <AnimatePresence mode="wait">
+            <Component key={router.asPath} {...pageProps} />
+          </AnimatePresence>
         </LazyMotion>
         <Footer />
       </main>
