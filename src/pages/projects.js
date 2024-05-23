@@ -6,7 +6,7 @@ import FeaturedProjects from "@/components/Projects/FeaturedProjects";
 import Project from "@/components/Projects/Project";
 import TransitionEffect from "@/components/util/TransitionEffect";
 
-import profile from "../../public/images/projects/Mr-Price-x-North-Star-feat.jpg";
+import profile from "/images/projects/Mr-Price-x-North-Star-feat.jpg";
 
 const projects = () => {
   return (
