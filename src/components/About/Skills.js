@@ -22,7 +22,7 @@ const Skill = ({ name, x, y }) => {
 const Skills = () => {
   return (
     <div className="my-52 md:my-32">
-      <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-3xl md:mb-16">
+      <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-6xl md:mb-16">
         Skills
       </h2>
       <div
@@ -46,7 +46,7 @@ const Skills = () => {
         <Skill name="Nextjs" x="-20vw" y="-15vw" />
         <Skill name="Shopify" x="31vw" y="-5vw" />
         <Skill name="Wordpress" x="0vw" y="-29vw" />
-        <Skill name="Tailwind" x="14vw" y="-13vw" />
+        <Skill name="Tailwind" x="18vw" y="-13vw" />
       </div>
     </div>
   );

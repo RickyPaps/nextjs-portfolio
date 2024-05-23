@@ -40,7 +40,7 @@ const FeaturedProjects = ({
         />
       </Link>
 
-      <div className="w-1/2 flex flex-col items-start justify-between p-4 lg:w-full lg:pl-0 lg:pt-6">
+      <div className="w-1/2 flex flex-col items-start justify-between p-4 lg:w-full lg:pl-0 lg:pt-6 last:justify-center">
         <span className="text-primary font-medium text-xl xs:text-base">
           {type}
         </span>
