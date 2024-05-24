@@ -21,8 +21,8 @@ const Project = ({ title, type, image, link, githubLink }) => {
           src={image}
           alt={title}
           className="w-full h-auto"
-          width={500}
-          height={500}
+          width={600}
+          height={600}
         />
       </Link>
       <div className="w-full flex flex-col items-start justify-between mt-4">

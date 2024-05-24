@@ -47,7 +47,7 @@ const projects = () => {
               <Project
                 title={"AI Summarizer"}
                 link={"https://ai-simplify.netlify.app/"}
-                image={"https://i.ibb.co/DKyjRSN/ai-summarize.png"}
+                image={"https://i.ibb.co/j6rb84k/DALL-E-2024-05-24-12-47-16-Create-a-modern-sleek-logo-that-represents-the-concept-of-summarizing-art.png"}
                 githubLink={"https://github.com/RickyPaps/ai-summarize"}
                 type={"Side Project"}
               />
