@@ -47,7 +47,7 @@ const about = () => {
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark" />
               <Image
                 //src={"https://i.ibb.co/WgFWzjW/profile.png"}
-                src={"https://ibb.co/TqLCq8mx"}
+                src={"https://i.ibb.co/VpmKpS2c/portfolio-image.jpg"}
                 width={500}
                 height={500}
                 alt="Ricky-about-image"
