@@ -29,7 +29,9 @@ const projects = () => {
                 Utilized Ionic React for the front-end framework, integrated with a back-end powered by GraphQL and Magento 2.
                 Employed Bitbucket for version control, with design assets created using Figma.`}
                 link={"https://www.mrp.com/home"}
-                image={"https://i.ibb.co/8Yzy3JQ/Mr-Price-x-North-Star-feat.jpg"}
+                image={
+                  "https://i.ibb.co/8Yzy3JQ/Mr-Price-x-North-Star-feat.jpg"
+                }
                 githubLink={""}
                 type={"Featured Project"}
               />
@@ -47,17 +49,19 @@ const projects = () => {
               <Project
                 title={"AI Summarizer"}
                 link={"https://ai-powered-summarizer.vercel.app/"}
-                image={"https://i.ibb.co/j6rb84k/DALL-E-2024-05-24-12-47-16-Create-a-modern-sleek-logo-that-represents-the-concept-of-summarizing-art.png"}
+                image={
+                  "https://i.ibb.co/j6rb84k/DALL-E-2024-05-24-12-47-16-Create-a-modern-sleek-logo-that-represents-the-concept-of-summarizing-art.png"
+                }
                 githubLink={"https://github.com/RickyPaps/ai-summarize"}
                 type={"Side Project"}
               />
             </div>
             <div className="col-span-12">
               <FeaturedProjects
-                title={"CareerHive"}
-                summary={`Stay Tuned`}
-                link={"#"}
-                image={"https://i.ibb.co/KVqDp3f/Coming-Soon.png"}
+                title={"Pareid Photography"}
+                summary={`Pareid is born from a desire to explore, imagine, and question. At its core is a fascination with the intersection of human vision and artificial intelligence — a space where technology meets intuition. Guided by curiosity and a commitment to visual storytelling, Pareid creates evocative narratives that blur the line between the seen and the imagined.`}
+                link={"https://pareid.netlify.app/"}
+                image={"https://i.ibb.co/r24Spxbv/Pareid-Photography.png"}
                 githubLink={""}
                 type={"Featured Project"}
               />
