@@ -65,7 +65,7 @@ const FeaturedProjects = ({
           <Link
             href={link}
             target="_blank"
-            className="ml-4 font-semibold text-light bg-dark px-6 p-2 rounded-lg sm:px-4 sm:text-base"
+            className="font-semibold text-light bg-dark px-6 p-2 rounded-lg sm:px-4 sm:text-base"
           >
             Visit Project
           </Link>
